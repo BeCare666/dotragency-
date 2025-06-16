@@ -1,468 +1,1185 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <!--<< Header Area >>-->
-    <head>
-        <!-- ========== Meta Tags ========== -->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="pixydrops">
-        <meta name="description" content="Remons - Booking Rental HTML Template">
-        <!-- ======== Page title ============ -->
-        <title>Dotragency</title> 
-        <!--<< Favcion >>-->
-        <link rel="shortcut icon" href="./assets/img/dotragency.jpg" type="image/x-icon">
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        />
+<!--<< Header Area >>-->
 
-        <!--<< Bootstrap min.css >>-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!--<< All Min Css >>-->
-        <link rel="stylesheet" href="assets/css/all.min.css">
-        <!--<< Animate.css >>-->
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <!--<< Magnific Popup.css >>-->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <!--<< MeanMenu.css >>-->
-        <link rel="stylesheet" href="assets/css/meanmenu.css">
-        <!--<< DatePicker.css >>-->
-        <link rel="stylesheet" href="assets/css/datepickerboot.css">
-        <!--<< Swiper Bundle.css >>-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        <!--<< Nice Select.css >>-->
-        <link rel="stylesheet" href="assets/css/nice-select.css">
-        <!--<< Main.css >>-->
-        <link rel="stylesheet" href="assets/css/main.css">
-    </head>
-    <body>
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="pixydrops">
+    <meta name="description" content="Remons - Booking Rental HTML Template">
+    <!-- ======== Page title ============ -->
+    <title>Dotragency</title>
+    <!--<< Favcion >>-->
+    <link rel="shortcut icon" href="./assets/img/dotragency.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <!--<< Bootstrap min.css >>-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--<< All Min Css >>-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!--<< Animate.css >>-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--<< Magnific Popup.css >>-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--<< MeanMenu.css >>-->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!--<< DatePicker.css >>-->
+    <link rel="stylesheet" href="assets/css/datepickerboot.css">
+    <!--<< Swiper Bundle.css >>-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--<< Nice Select.css >>-->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!--<< Main.css >>-->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
 
-        <!-- Preloader Start -->
-        <div id="preloader" class="preloader">
-            <div class="animation-preloader">
-                <div class="spinner">                
-                </div>
-                <div class="txt-loading">
-                    <span data-text-preloader="D" class="letters-loading">
-                       D
-                    </span>
-                    <span data-text-preloader="O" class="letters-loading">
-                        O
-                    </span>
-                    <span data-text-preloader="T" class="letters-loading">
-                       T
-                    </span>
-                    <span data-text-preloader="R" class="letters-loading">
-                       R
-                    </span>
-                    <span data-text-preloader="A" class="letters-loading">
-                       A
-                    </span>
-                    <span data-text-preloader="G" class="letters-loading">
-                        G
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                       E
-                    </span>
-                    <span data-text-preloader="N" class="letters-loading">
-                        N
-                    </span>
-                    <span data-text-preloader="C" class="letters-loading">
-                      C
-                    </span>
-                    <span data-text-preloader="Y" class="letters-loading">
-                      Y
-                    </span>
-                   
-                </div>
-                <!--<p class="text-center">Chargement</p>-->
+<body>
+
+    <!-- Preloader Start -->
+    <div id="preloader" class="preloader">
+        <div class="animation-preloader">
+            <div class="spinner">
             </div>
-            <div class="loader">
-                <div class="row">
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                </div>
+            <div class="txt-loading">
+                <span data-text-preloader="D" class="letters-loading">
+                    D
+                </span>
+                <span data-text-preloader="O" class="letters-loading">
+                    O
+                </span>
+                <span data-text-preloader="T" class="letters-loading">
+                    T
+                </span>
+                <span data-text-preloader="R" class="letters-loading">
+                    R
+                </span>
+                <span data-text-preloader="A" class="letters-loading">
+                    A
+                </span>
+                <span data-text-preloader="G" class="letters-loading">
+                    G
+                </span>
+                <span data-text-preloader="E" class="letters-loading">
+                    E
+                </span>
+                <span data-text-preloader="N" class="letters-loading">
+                    N
+                </span>
+                <span data-text-preloader="C" class="letters-loading">
+                    C
+                </span>
+                <span data-text-preloader="Y" class="letters-loading">
+                    Y
+                </span>
+
             </div>
+            <!--<p class="text-center">Chargement</p>-->
         </div>
-
-        <!-- Back To Top Start -->
-        <div class="scroll-up">
-            <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-            </svg>
-        </div>
-
-        <!-- Offcanvas Area Start -->
-        <div class="fix-area">
-            <div class="offcanvas__info">
-                <div class="offcanvas__wrapper">
-                    <div class="offcanvas__content">
-                        <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
-                            <div class="offcanvas__logo">
-                                <a href="index.html">
-                                    <img src="./assets/img/dotragency.jpg" style="width: 50px; height: 50px; border-radius: 50px;"  alt="logo-img" class="logoImgId">
-                                </a>
-                            </div>
-                            <div class="offcanvas__close">
-                                <button>
-                                <i class="fas fa-times"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <p class="text d-none d-xl-block">
-                            Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
-                        </p>
-                        <div class="mobile-menu fix mb-3"></div>
-                        <div class="offcanvas__contact" style="display: none !important;">
-                            <h4>Contact Info</h4>
-                            <ul>
-                                <li class="d-flex align-items-center">
-                                    <div class="offcanvas__contact-icon">
-                                        <i class="fal fa-map-marker-alt"></i>
-                                    </div>
-                                    <div class="offcanvas__contact-text">
-                                        <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
-                                    </div>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <div class="offcanvas__contact-icon mr-15">
-                                        <i class="fal fa-envelope"></i>
-                                    </div>
-                                    <div class="offcanvas__contact-text">
-                                        <a href="mailto:info@Dotragency.com"><span class="mailto:info@Dotragency.com">info@Dotragency.com</span></a>
-                                    </div>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <div class="offcanvas__contact-icon mr-15">
-                                        <i class="fal fa-clock"></i>
-                                    </div>
-                                    <div class="offcanvas__contact-text">
-                                        <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
-                                    </div>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <div class="offcanvas__contact-icon mr-15">
-                                        <i class="far fa-phone"></i>
-                                    </div>
-                                    <div class="offcanvas__contact-text">
-                                        <a href="tel:+11002345909">+11002345909</a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="header-button mt-4">
-                                <a href="contact.html" class="theme-btn text-center">
-                                    <span>Get A Quote<i class="fa-solid fa-arrow-right-long"></i></span>
-                                </a>
-                            </div>
-                            <div class="social-icon d-flex align-items-center">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-youtube"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
+        <div class="loader">
+            <div class="row">
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-left">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
+                </div>
+                <div class="col-3 loader-section section-right">
+                    <div class="bg"></div>
                 </div>
             </div>
         </div>
-        <div class="offcanvas__overlay"></div>
+    </div>
 
-        <!-- Header Top Section Start -->
-        <div class="header-top-section">
-            <div class="container-fluid">
-                <div class="header-top-wrapper">
-                    <ul class="contact-list">
-                        <li>
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:info@Dotragency.com" class="link">info@Dotragency.com</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i>
-                            88 Broklyn Golden Street. New York
-                        </li>
-                    </ul>
-                    <div class="header-top-right">
-                        <ul class="top-list" style="opacity: 0;">
-                            <li><a href="contact.html">Help</a></li>
-                            <li>/</li>
-                            <li><a href="contact.html">Support</a></li>
-                            <li>/</li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                        <div class="social-icon d-flex align-items-center">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Back To Top Start -->
+    <div class="scroll-up">
+        <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
 
-        <!-- Header Section Start -->
-        <header id="header-sticky" class="header-1">
-            <div class="container-fluid">
-                <div class="mega-menu-wrapper">
-                    <div class="header-main">
-                        <div class="header-left">
-                            <div class="logo">
-                                <a href="index.html" class="header-logo">
-                                    <img src="./assets/img/dotragency.jpg" alt="logo-img" class="logoImgId">
-                                </a>
-                            </div>
-                            <div class="mean__menu-wrapper">
-                                <div class="main-menu">
-                                    <nav id="mobile-menu">
-                                        <ul>
-                                            <li class="has-dropdown active menu-thumb">
-                                                <a href="index.html">
-                                               Accueil 
-                                                </a> 
-                                            </li>
-                                            <li>
-                                                <a href="#about">A propos</a>
-                                            </li>
-                                            
-                                            <li>
-                                                <a href="#nosvoitures">
-                                                   Nos voitures 
-                                                </a> 
-                                            </li>
-                                            <li>
-                                                <a href="faq.html">
-                                                    F.A.Q
-                                                   <!-- <i class="fas fa-angle-down"></i>-->
-                                                </a> 
-                                            </li>
-                                            <li>
-                                                <a href="contact.html">Contact</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="header-right d-flex justify-content-end align-items-center"  >
-                            <div class="icon-items">
-                                <div class="icon">
-                                    <i class="fas fa-phone-alt"></i>
-                                </div>
-                                <div class="content">
-                                    <p>Call Anytime</p>
-                                    <h6><a href="tel:+9288009850">+92 (8800) - 9850</a></h6>
-                                </div>
-                            </div>
-                            <a id="MySpanContactId" style="cursor: pointer;" class="">
-                                <i class="fa-solid fa-phone"></i>
+    <!-- Offcanvas Area Start -->
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="index.html">
+                                <img src="./assets/img/dotragency.jpg"
+                                    style="width: 50px; height: 50px; border-radius: 50px;" alt="logo-img"
+                                    class="logoImgId">
                             </a>
-                            <div class="header-button">
-                                <a href="car-details.html" class="header-btn">
-                                    Find a Car
-                                </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button>
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="text d-none d-xl-block">
+                        Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a
+                        feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                    </p>
+                    <div class="mobile-menu fix mb-3"></div>
+                    <div class="offcanvas__contact" style="display: none !important;">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="mailto:info@dotragency.com"><span
+                                            class="mailto:info@dotragency.com">info@dotragency.com</span></a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-clock"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="far fa-phone"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="tel:+2250719093910">+2250719093910</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="header-button mt-4">
+                            <a href="contact.html" class="theme-btn text-center">
+                                <span>Get A Quote<i class="fa-solid fa-arrow-right-long"></i></span>
+                            </a>
+                        </div>
+                        <div class="social-icon d-flex align-items-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+
+    <!-- Header Top Section Start -->
+    <div class="header-top-section">
+        <div class="container-fluid">
+            <div class="header-top-wrapper">
+                <ul class="contact-list">
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@dotragency.com" class="link">info@dotragency.com</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                       Villa 33, Rue des Flamboyants
+                        Quartier Plateau, Abidjan
+                    </li>
+                </ul>
+                <div class="header-top-right">
+                    <ul class="top-list" style="opacity: 0;">
+                        <li><a href="contact.html">Help</a></li>
+                        <li>/</li>
+                        <li><a href="contact.html">Support</a></li>
+                        <li>/</li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="social-icon d-flex align-items-center">
+                         <a href="https://www.instagram.com/dotraagency?igsh=Z3YzdThqZmpjN3Nl&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                    <!-- TikTok -->
+                    <a href="https://www.tiktok.com/@dotragency?_t=ZM-8wBtMYsTcTl&_r=1"><i class="fab fa-tiktok"></i></i></a>
+                    <!-- Snapchat -->
+                    <a href="https://snapchat.com/t/N3ZI2sEj"><i class="fab fa-snapchat-ghost"></i></a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Section Start -->
+    <header id="header-sticky" class="header-1">
+        <div class="container-fluid">
+            <div class="mega-menu-wrapper">
+                <div class="header-main">
+                    <div class="header-left">
+                        <div class="logo">
+                            <a href="index.html" class="header-logo">
+                                <img src="./assets/img/dotragency.jpg" alt="logo-img" class="logoImgId">
+                            </a>
+                        </div>
+                        <div class="mean__menu-wrapper">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <li class="has-dropdown active menu-thumb">
+                                            <a href="index.html">
+                                                Accueil
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#about">A propos</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#nosvoitures">
+                                                Nos voitures
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="faq.html">
+                                                F.A.Q
+                                                <!-- <i class="fas fa-angle-down"></i>-->
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
                             </div>
-                            <div class="header__hamburger d-xl-none my-auto" >
-                                <div class="sidebar__toggle">
-                                    <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="header-right d-flex justify-content-end align-items-center">
+                        <div class="icon-items">
+                            <div class="icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="content">
+                                <p>Call Anytime</p>
+                                <h6><a href="tel:+2250719093910">+2250719093910</a></h6>
+                            </div>
+                        </div>
+                        <a id="MySpanContactId" style="cursor: pointer;" class="">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                        <div class="header-button">
+                            <a href="" class="header-btn">
+                                Find a Car
+                            </a>
+                        </div>
+                        <div class="header__hamburger d-xl-none my-auto">
+                            <div class="sidebar__toggle">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Area Start -->
+    <div class="search-wrap" style="display: none;">
+        <div class="search-inner">
+            <i class="fas fa-times search-close" id="search-close"></i>
+            <div class="search-cell">
+                <form method="get">
+                    <div class="search-field-holder">
+                        <input type="search" class="main-search-input" placeholder="Search...">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="infoContactId">
+        <a href=""><i class="fa-solid fa-envelope"></i> E-mail : info@dotragency.com</a> <br><br>
+        <a href=""><i class="fa-solid fa-phone"></i> Phone : +2250719093910</a>
+    </div>
+    <!-- Hero Section Start -->
+    <section class="hero-section hero-1 fix">
+        <div class="array-button" style="display: none;">
+            <button class="image-array-left">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="image-array-right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+        <div class="swiper hero-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="hero-image bg-cover"
+                        style="background-image: url('https://pixydrops.com/remons/assets/img/hero/hero-1.jpg');">
+                        <div class="overlay-shape">
+                            <img src="https://pixydrops.com/remons/assets/img/hero/overlay.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-12">
+                                <div class="hero-content text-center">
+                                    <h4 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
+                                        Dotragency simplifie vos déplacements.
+                                    </h4>
+                                    <h1 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
+                                        Louez la voiture idéale.
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-image bg-cover"
+                        style="background-image: url('https://pixydrops.com/remons/assets/img/hero/hero-2.jpg');">
+                        <div class="overlay-shape">
+                            <img src="https://pixydrops.com/remons/assets/img/hero/overlay.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-12">
+                                <div class="hero-content text-center">
+                                    <h4 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
+                                        Dotragency simplifie vos déplacements.
+                                    </h4>
+                                    <h1 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
+                                        Louez la voiture idéale.
+                                    </h1>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+    </section>
 
-        <!-- Search Area Start -->
-        <div class="search-wrap" style="display: none;">
-            <div class="search-inner">
-                <i class="fas fa-times search-close" id="search-close"></i>
-                <div class="search-cell">
-                    <form method="get">
-                        <div class="search-field-holder">
-                            <input type="search" class="main-search-input" placeholder="Search...">
+                <!-- Pick Up Location Section Start -->
+                <div class="pickup-loaction-area bg-cover"
+                    style="background-image: url('https://pixydrops.com/remons/assets/img/brand-bg.png');">
+                    <div class="container">
+            <div class="pickup-wrapper wow fadeInUp" data-wow-delay=".4s">
+                <div class="pickup-items">
+                    <label class="field-label">Location de véhicules</label>
+                    <div class="category-oneadjust">
+                        <select id="ville" class="category">
+                            <option value="">Choisir une ville</option>
+                            <option value="Abidjan">Abidjan</option>
+                            <option value="Yamoussoukro">Yamoussoukro</option>
+                            <option value="Bouaké">Bouaké</option>
+                            <option value="San Pedro">San Pedro</option>
+                            <option value="Daloa">Daloa</option>
+                            <option value="Korhogo">Korhogo</option>
+                            <option value="Man">Man</option>
+                            <option value="Gagnoa">Gagnoa</option>
+                            <option value="Autre ville">Autre ville</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="pickup-items">
+                    <label class="field-label">Date de départ</label>
+                    <div id="datepicker" class="input-group date" data-date-format="dd-mm-yyyy">
+                        <input id="date-depart" class="form-control" type="text" placeholder="Date" readonly>
+                        <span class="input-group-addon"> <i class="fa-solid fa-calendar-days"></i></span>
+                    </div>
+                </div>
+
+                <div class="pickup-items">
+                    <label class="field-label">Date de retour</label>
+                    <div id="datepicker2" class="input-group date" data-date-format="dd-mm-yyyy">
+                        <input id="date-retour" class="form-control" type="text" placeholder="Date" readonly>
+                        <span class="input-group-addon"> <i class="fa-solid fa-calendar-days"></i></span>
+                    </div>
+                </div>
+
+                <div class="pickup-items">
+                    <label class="field-label">Type de véhicule</label>
+                    <div class="category-oneadjust">
+                        <select id="type-vehicule" class="category">
+                            <option value="">Choisir un type</option>
+                            <option value="Citadine">Citadine</option>
+                            <option value="Berline">Berline</option>
+                            <option value="SUV / 4x4">SUV / 4x4</option>
+                            <option value="Pick-up">Pick-up</option>
+                            <option value="Minibus">Minibus</option>
+                            <option value="Camionnette">Camionnette</option>
+                            <option value="Voiture de luxe">Voiture de luxe</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="pickup-items">
+                    <label class="field-label style-2">Recherche</label>
+                    <button class="pickup-btn" type="button" onclick="envoyerWhatsApp()">
+                        Trouver un véhicule
+                    </button>
+                </div>
+            </div>
+            <div class="brand-wrapper pt-80 pb-80" style="opacity: 0; height: 10px !important;">
+                <div class="array-button">
+                    <button class="array-prev-2"><i class="far fa-chevron-left"></i></button>
+                    <button class="array-next-2"><i class="far fa-chevron-right"></i></button>
+                </div>
+                <div class="swiper brand-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="brand-image">
+                                <img src="https://pixydrops.com/remons/assets/img/brand/01.png" alt="img">
+                            </div>
                         </div>
-                    </form>
+                        <div class="swiper-slide">
+                            <div class="brand-image">
+                                <img src="https://pixydrops.com/remons/assets/img/brand/02.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image">
+                                <img src="https://pixydrops.com/remons/assets/img/brand/03.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image">
+                                <img src="https://pixydrops.com/remons/assets/img/brand/04.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image">
+                                <img src="https://pixydrops.com/remons/assets/img/brand/05.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-image">
+                                <img src="https://pixydrops.com/remons/assets/img/brand/06.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="infoContactId" >
-            <a href=""><i class="fa-solid fa-envelope"></i> E-mail : info@dotragency.com</a> <br><br>
-            <a href=""><i class="fa-solid fa-phone"></i> Phone : +2290142850114</a>
-        </div>
-        <!-- Hero Section Start -->
-        <section class="hero-section hero-1 fix">
-            <div class="array-button" style="display: none;">
-                <button class="image-array-left">
-                    <i class="fa-solid fa-chevron-left"></i>
-                </button>
-                <button class="image-array-right">
-                    <i class="fa-solid fa-chevron-right"></i>
-                </button>
+    </div>
+
+    <!-- Feature Benefit Section Start -->
+    <section class="feature-benefit section section-padding fix" id="about">
+        <div class="container">
+            <div class="section-title text-center">
+                <!--<img src="https://pixydrops.com/remons/assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
+                    <span class="wow fadeInUp" data-wow-delay=".2s">our benefits</span>-->
+                <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                    Pourquoi utiliser <br>
+                    Dotragency
+                </h2>
             </div>
-            <div class="swiper hero-slider">
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="feature-benefit-items">
+                        <div class="icon-box-shape">
+                            <img src="https://pixydrops.com/remons/assets/img/feature-benefit/box-icon-bg1.png"
+                                alt="shape-img">
+                        </div>
+                        <div class="bg-button-shape">
+                            <img src="https://pixydrops.com/remons/assets/img/feature-benefit/bg-button-iconbox.png"
+                                alt="shape-img">
+                        </div>
+                        <div class="feature-content">
+                            <h4>
+                                <a href="">
+                                    Large choix <br> de véhicules
+
+                                </a>
+                            </h4>
+                            <p>Dotragency vous propose un vaste catalogue adapté à tous les besoins</p>
+                            <div class="icon">
+                                <img src="https://pixydrops.com/remons/assets/img/feature-benefit/icon-1.png"
+                                    alt="icon-img">
+                            </div>
+                        </div>
+                        <div class="feature-button">
+                            <a href="" style="opacity: 0;" class="link-btn">View More <i
+                                    class="fa-solid fa-arrow-right ps-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="feature-benefit-items">
+                        <div class="icon-box-shape">
+                            <img src="https://pixydrops.com/remons/assets/img/feature-benefit/box-icon-bg2.png"
+                                alt="shape-img">
+                        </div>
+                        <div class="bg-button-shape">
+                            <img src="https://pixydrops.com/remons/assets/img/feature-benefit/bg-button-iconbox.png"
+                                alt="shape-img">
+                        </div>
+                        <div class="feature-content">
+                            <h4>
+                                <a href="">
+                                    Assurance incluse
+                                </a>
+                            </h4>
+                            <p>Selon les prestataires, les véhicules sont couverts par une assurance de base</p>
+                            <div class="icon">
+                                <img src="https://pixydrops.com/remons/assets/img/feature-benefit/icon-2.png"
+                                    alt="icon-img">
+                            </div>
+                        </div>
+                        <div class="feature-button">
+                            <a href="" style="opacity: 0;" class="link-btn">View More <i
+                                    class="fa-solid fa-arrow-right ps-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                    <div class="feature-benefit-items">
+                        <div class="icon-box-shape">
+                            <img src="https://pixydrops.com/remons/assets/img/feature-benefit/box-icon-bg3.png"
+                                alt="shape-img">
+                        </div>
+                        <div class="bg-button-shape">
+                            <img src="https://pixydrops.com/remons/assets/img/feature-benefit/bg-button-iconbox.png"
+                                alt="shape-img">
+                        </div>
+                        <div class="feature-content">
+                            <h4>
+                                <a href="">
+                                    Support client <br> réactif 24/7
+                                </a>
+                            </h4>
+                            <p>Une question ? Un imprévu ? Notre équipe d’assistance est disponible jour et nuit</p>
+                            <div class="icon">
+                                <img src="https://pixydrops.com/remons/assets/img/feature-benefit/icon-3.png"
+                                    alt="icon-img">
+                            </div>
+                        </div>
+                        <div class="feature-button">
+                            <a href="" style="opacity: 0;" class="link-btn">View More <i
+                                    class="fa-solid fa-arrow-right ps-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about-section fix section-padding pt-0">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="about-image-items">
+                            <div class="color-shape">
+                                <img src="https://pixydrops.com/remons/assets/img/about/secondary-shape-color-full.png"
+                                    alt="shape-img">
+                            </div>
+                            <div class="car-shape wow fadeInUp" data-wow-delay=".7s">
+                                <img src="https://pixydrops.com/remons/assets/img/about/car-shape.png" alt="shape-img">
+                            </div>
+                            <div class="counter-content wow fadeInLeft" data-wow-delay=".4s">
+                                <h2 class="text-white"><span class="count">50</span></h2>
+                                <p class="text-white">
+                                    Années <br>d'experience
+                                </p>
+                            </div>
+                            <div class="about-image-1 wow fadeInDown" data-wow-delay=".3s">
+                                <img src="./assets/img/jeune-joyeuse-femme0.avif" style="width: 55vh; height: 50vh;" alt="about-image">
+                            </div>
+                            <div class="about-image-2 wow fadeInLeft" data-wow-delay=".5s">
+                                <img src="https://pixydrops.com/remons/assets/img/about/02.jpg" alt="about-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-title">
+                                <img src="https://pixydrops.com/remons/assets/img/sub-icon.png" alt="icon-img"
+                                    class="wow fadeInUp">
+                                <span class="wow fadeInUp" data-wow-delay=".2s">A Propos</span>
+                                <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                                    Dotragency, c’est bien plus qu’un service de location de voiture.
+                                </h2>
+                            </div>
+                            <h4 class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".3s">
+                                Notre mission est d'offrir une expérience de location simple, transparente et accessible
+                                à travers l’Afrique.
+                            </h4>
+                            <p class="wow fadeInUp" data-wow-delay=".5s">
+                                Que vous soyez voyageur, professionnel ou habitant local, nous vous offrons un accès
+                                rapide à une
+                                flotte variée de
+                                véhicules à louer, adaptée à vos besoins et à votre budget.
+                            </p>
+                            <div class="about-list-item wow fadeInUp" data-wow-delay=".7s" style="display: none;">
+                                <ul>
+                                    <li>
+                                        Many Pickup Locations
+                                    </li>
+                                    <li>
+                                        Offering Low Prices
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        Many Pickup Locations
+                                    </li>
+                                    <li>
+                                        Offering Low Prices
+                                    </li>
+                                </ul>
+                            </div>
+                            <a style="display: none;" href="#about" class="theme-btn wow fadeInUp"
+                                data-wow-delay=".8s">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Car Rentals Section Start -->
+    <section class="car-rentals-section section-padding fix" id="nosvoitures">
+        <div class="container">
+            <div class="section-title text-center">
+                <img src="https://pixydrops.com/remons/assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
+                <span class="wow fadeInUp" data-wow-delay=".2s">Découvrez nos nouvelles voitures</span>
+                <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                    Voitures que nous proposons à la location
+                </h2>
+            </div>
+        </div>
+        <div class="car-rentals-wrapper">
+            <div class="array-button">
+                <button class="array-prev"><i class="far fa-chevron-left"></i></button>
+                <button class="array-next"><i class="far fa-chevron-right"></i></button>
+            </div>
+            <div class="swiper car-rentals-slider">
+                <div class="swiper-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                                <div class="swiper-slide">
+                                    <div class="car-rentals-items">
+                                        <div class="car-image">
+                                            <img src="./assets/img/Mercedes 1.jpg" alt="img">
+                                        </div>
+                                        <div class="car-content">
+                                            <div class="post-cat">
+                                                Modèle 2019
+                                            </div>
+                                            <div class="star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <span>2 Reviews</span>
+                                            </div>
+                                            <h4><a href="">Mercedes-Benz GLE 300d 4MATIC</a></h4>
+                                            <h6>50.000 FCFA <span>/ Jour</span></h6>
+                                            <div class="icon-items">
+                                                <ul>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/seat.svg"
+                                                            alt="img" class="me-1">
+                                                        5 Places
+                                                    </li>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/door.svg"
+                                                            alt="img" class="me-1">
+                                                        4 Portes
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/automatic.svg"
+                                                            alt="img" class="me-1">
+                                                        Automatique
+                                                    </li>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/petrol.svg"
+                                                            alt="img" class="me-1">
+                                                        Diesel
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a   class="theme-btn bg-color w-100 text-center">book
+                                                now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                                <div class="swiper-slide">
+                                    <div class="car-rentals-items">
+                                        <div class="car-image">
+                                            <img src="./assets/img/Mercedes 2.jpg" alt="img">
+                                        </div>
+                                        <div class="car-content ">
+                                            <div class="post-cat">
+                                                Modèle 2019
+                                            </div>
+                                            <div class="star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <span>2 Reviews</span>
+                                            </div>
+                                            <h4><a href="">Mercedes-Benz GLE 450 4MATIC</a></h4>
+                                            <h6>50.000 FCFA <span>/ Jour</span></h6>
+                                            <div class="icon-items">
+                                                <ul>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/seat.svg"
+                                                            alt="img" class="me-1">
+                                                        5 Places
+                                                    </li>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/door.svg"
+                                                            alt="img" class="me-1">
+                                                        4 Portes
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/automatic.svg"
+                                                            alt="img" class="me-1">
+                                                        Automatique
+                                                    </li>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/petrol.svg"
+                                                            alt="img" class="me-1">
+                                                        Essence
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a   class="theme-btn bg-color w-100 text-center">book
+                                                now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                                <div class="swiper-slide">
+                                    <div class="car-rentals-items">
+                                        <div class="car-image">
+                                            <img src="./assets/img/Mercedes 3.jpg" alt="img">
+                                        </div>
+                                        <div class="car-content">
+                                            <div class="post-cat">
+                                                Modèle 2019
+                                            </div>
+                                            <div class="star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <span>2 Reviews</span>
+                                            </div>
+                                            <h4><a href="">Mercedes-Benz GLE 350 de 4MATIC</a></h4>
+                                            <h6>50.000 FCFA <span>/ Jour</span></h6>
+                                            <div class="icon-items">
+                                                <ul>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/seat.svg"
+                                                            alt="img" class="me-1">
+                                                        5 Places
+                                                    </li>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/door.svg"
+                                                            alt="img" class="me-1">
+                                                        4 Portes
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/automatic.svg"
+                                                            alt="img" class="me-1">
+                                                        Automatique
+                                                    </li>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/petrol.svg"
+                                                            alt="img" class="me-1">
+                                                        Diesel
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a   class="theme-btn bg-color w-100 text-center">book
+                                                now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                                <div class="swiper-slide">
+                                    <div class="car-rentals-items">
+                                        <div class="car-image">
+                                            <img src="./assets/img/Mercedes 4.jpg" alt="img">
+                                        </div>
+                                        <div class="car-content">
+                                            <div class="post-cat">
+                                                Modèle 2019
+                                            </div>
+                                            <div class="star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <span>2 Reviews</span>
+                                            </div>
+                                            <h4><a href="">Mercedes-AMG GLE 63 S 4MATIC+
+                                                </a></h4>
+                                            <h6>50.000 FCFA <span>/ Jour</span></h6>
+                                            <div class="icon-items">
+                                                <ul>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/seat.svg"
+                                                            alt="img" class="me-1">
+                                                        5 Places
+                                                    </li>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/door.svg"
+                                                            alt="img" class="me-1">
+                                                        4 Portes
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/automatic.svg"
+                                                            alt="img" class="me-1">
+                                                        Automatique
+                                                    </li>
+                                                    <li>
+                                                        <img src="https://pixydrops.com/remons/assets/img/car/petrol.svg"
+                                                            alt="img" class="me-1">
+                                                        Essence
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a   class="theme-btn bg-color w-100 text-center">book
+                                                now <i class="fa-solid fa-arrow-right ps-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Car Service Section Start -->
+    <section class="car-service-section">
+        <div class="container">
+            <div class="car-service-wrapper">
+                <div class="shape-image">
+                    <img src="https://pixydrops.com/remons/assets/img/car/shape-column.png" alt="shape-img">
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="service-car-image">
+                            <img src="https://pixydrops.com/remons/assets/img/decor-image-contact-home.jpg" alt="img">
+                            <div class="color-shape">
+                                <img src="https://pixydrops.com/remons/assets/img/car/secondary-shape-color.png"
+                                    alt="shape-img">
+                            </div>
+                            <div class="booking-content">
+                                <p>Appelez pour réserver</p>
+                                <h3><a href="tel:+2250719093910">+2250719093910</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="service-car-content">
+                            <h2 class="wow fadeInUp" data-wow-delay=".3s">
+                                Vous recherchez un <br> service de voiture de luxe ?
+                            </h2>
+                            <h3 class="wow fadeInUp" data-wow-delay=".5s">
+                                <span>À partir de</span> <sup>$</sup> 398 <span class="text">/mois</span>
+                            </h3>
+                            <a href="index.html" class="theme-btn wow fadeInUp" data-wow-delay=".7s">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Funfact Section Start -->
+    <section class="funfact-section section-padding bg-cover"
+        style="display: none; background-image: url('https://pixydrops.com/remons/assets/img/funfact-bg.jpg');">
+        <div class="container">
+            <div class="funfact-wrapper">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="section-title mb-0">
+                            <img src="https://pixydrops.com/remons/assets/img/sub-icon-2.png" alt="icon-img"
+                                class="wow fadeInUp">
+                            <span class="wow fadeInUp" data-wow-delay=".2s">fun facts</span>
+                            <h2 class="text-white wow fadeInUp" data-wow-delay=".4s">
+                                Save Time & Money <br>
+                                with Top Car Rent <br>
+                                Services
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="funfact-counter-area">
+                            <div class="funfact-items wow fadeInUp" data-wow-delay=".3s">
+                                <div class="icon">
+                                    <img src="https://pixydrops.com/remons/assets/img/icon/car.png" alt="img">
+                                </div>
+                                <h2><span class="count">990</span></h2>
+                                <p>
+                                    Cars <br>
+                                    rentouts
+                                </p>
+                            </div>
+                            <div class="funfact-items wow fadeInUp" data-wow-delay=".5s">
+                                <div class="icon">
+                                    <img src="https://pixydrops.com/remons/assets/img/icon/center.png" alt="img">
+                                </div>
+                                <h2><span class="count">230</span></h2>
+                                <p>
+                                    Center <br>
+                                    solutions
+                                </p>
+                            </div>
+                            <div class="funfact-items wow fadeInUp" data-wow-delay=".7s">
+                                <div class="icon">
+                                    <img src="https://pixydrops.com/remons/assets/img/icon/like.png" alt="img">
+                                </div>
+                                <h2><span class="count">660</span></h2>
+                                <p>
+                                    happy <br>
+                                    customers
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Car Section Start -->
+    <section class="popular-car-section fix section-padding" style="display: none;">
+        <div class="container">
+            <div class="section-title text-center">
+                <img src="https://pixydrops.com/remons/assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
+                <span class="wow fadeInUp" data-wow-delay=".2s">select car types</span>
+                <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                    We’re Offering Popular <br>
+                    Cars Models
+                </h2>
+            </div>
+            <div class="row g-4 mt-30">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="popular-card-items">
+                        <div class="content">
+                            <h4><a href="">Sedan</a></h4>
+                            <p>Available for Rent</p>
+                        </div>
+                        <div class="car-image">
+                            <img src="https://pixydrops.com/remons/assets/img/car/popular-car-1.jpg" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="popular-card-items">
+                        <div class="content">
+                            <h4><a href="">Sports</a></h4>
+                            <p>Available for Rent</p>
+                        </div>
+                        <div class="car-image">
+                            <img src="https://pixydrops.com/remons/assets/img/car/popular-car-2.jpg" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                    <div class="popular-card-items">
+                        <div class="content">
+                            <h4><a href="">Jeep</a></h4>
+                            <p>Available for Rent</p>
+                        </div>
+                        <div class="car-image">
+                            <img src="https://pixydrops.com/remons/assets/img/car/popular-car-3.jpg" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="popular-card-items">
+                        <div class="content">
+                            <h4><a href="">SUV</a></h4>
+                            <p>Available for Rent</p>
+                        </div>
+                        <div class="car-image">
+                            <img src="https://pixydrops.com/remons/assets/img/car/popular-car-4.jpg" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="popular-card-items">
+                        <div class="content">
+                            <h4><a href="">Luxury</a></h4>
+                            <p>Available for Rent</p>
+                        </div>
+                        <div class="car-image">
+                            <img src="https://pixydrops.com/remons/assets/img/car/popular-car-5.jpg" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                    <div class="popular-card-items">
+                        <div class="content">
+                            <h4><a href="">Luxury</a></h4>
+                            <p>Available for Rent</p>
+                        </div>
+                        <div class="car-image">
+                            <img src="https://pixydrops.com/remons/assets/img/car/popular-car-6.jpg" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-car-text wow fadeInUp" data-wow-delay=".4s">
+                <h6>Car rental services specifically for our customers.</h6>
+                <a href="" class="theme-btn">Find a car</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section Start -->
+    <section class="testimonial-section fix section-padding" style="display: none;">
+        <div class="testimonial-bg-shape">
+            <img src="https://pixydrops.com/remons/assets/img/testimonial/testimonial-bg.jpg" alt="shape-img">
+        </div>
+        <div class="container">
+            <div class="section-title-area">
+                <div class="section-title">
+                    <img src="https://pixydrops.com/remons/assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
+                    <span class="wow fadeInUp" data-wow-delay=".2s">our testimonials</span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                        What They’re Talking <br>
+                        About Remons
+                    </h2>
+                </div>
+                <p class="wow fadeInUp" data-wow-delay=".5s">
+                    Lorem ipsum dolor sit amet nsectetur cing elituspe ndisse suscipit <br> sagitis leo sit.
+                </p>
+            </div>
+            <div class="swiper testimonial-slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="hero-image bg-cover" style="background-image: url('https://pixydrops.com/remons/assets/img/hero/hero-1.jpg');">
-                                <div class="overlay-shape">
-                                    <img src="https://pixydrops.com/remons/assets/img/hero/overlay.png" alt="img">
-                                </div>
-                             </div>
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-xl-12">
-                                       <div class="hero-content text-center">
-                                            <h4 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
-                                               Dotragency simplifie vos déplacements.
-                                            </h4>
-                                            <h1 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
-                                                Louez la voiture idéale.
-                                            </h1>
-                                       </div>
+                        <div class="testimonial-card-items">
+                            <div class="testimoni-bg-shape">
+                                <div class="testimonial-items-top">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-quote-left"></i>
+                                    </div>
+                                    <p>
+                                        I was very impresed by the remons service lorem ipsum is simply free text used
+                                        by copy typing refreshing. Neque porro est qui dolorem ipsum quia.
+                                    </p>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
                                     </div>
                                 </div>
                             </div>
+                            <div class="client-info-items d-flex align-items-center gap-3">
+                                <div class="client-img bg-cover"
+                                    style="background-image: url('https://pixydrops.com/remons/assets/img/testimonial/client-1.png');">
+                                </div>
+                                <div class="content">
+                                    <h5>
+                                        Jessica Brown
+                                    </h5>
+                                    <span>Customer</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="hero-image bg-cover" style="background-image: url('https://pixydrops.com/remons/assets/img/hero/hero-2.jpg');">
-                            <div class="overlay-shape">
-                                <img src="https://pixydrops.com/remons/assets/img/hero/overlay.png" alt="img">
-                            </div>
-                        </div>
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-xl-12">
-                                       <div class="hero-content text-center">
-                                            <h4 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
-                                               Dotragency simplifie vos déplacements.
-                                            </h4>
-                                            <h1 class="text-white" data-animation="fadeInUp" data-delay="1.3s">
-                                                Louez la voiture idéale.
-                                            </h1>
-                                       </div>
+                        <div class="testimonial-card-items">
+                            <div class="testimoni-bg-shape">
+                                <div class="testimonial-items-top">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-quote-left"></i>
+                                    </div>
+                                    <p>
+                                        I was very impresed by the remons service lorem ipsum is simply free text used
+                                        by copy typing refreshing. Neque porro est qui dolorem ipsum quia.
+                                    </p>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
                                     </div>
                                 </div>
                             </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Pick Up Location Section Start -->
-        <div class="pickup-loaction-area bg-cover" style="background-image: url('https://pixydrops.com/remons/assets/img/brand-bg.png');">
-            <div class="container">
-                <div class="pickup-wrapper wow fadeInUp" data-wow-delay=".4s">
-                    <div class="pickup-items">
-                        <label class="field-label">Location Pick-up </label>
-                        <div class="category-oneadjust">
-                            <select name="cate" class="category">
-                                <option value="1">
-                                    Select Location
-                                </option>
-                                <option value="1">
-                                    Houston
-                                </option>
-                                <option value="1">
-                                    Texas
-                                </option>
-                                <option value="1">
-                                    New York
-                                </option>
-                                <option value="1">
-                                    Other Location
-                                </option>
-                            </select>
+                            <div class="client-info-items d-flex align-items-center gap-3">
+                                <div class="client-img bg-cover"
+                                    style="background-image: url('https://pixydrops.com/remons/assets/img/testimonial/client-2.png');">
+                                </div>
+                                <div class="content">
+                                    <h5>
+                                        Kevin Martin
+                                    </h5>
+                                    <span>Customer</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="pickup-items">
-                        <label class="field-label">Pickup Date</label>
-                        <div id="datepicker" class="input-group date" data-date-format="dd-mm-yyyy">
-                            <input class="form-control" type="text" placeholder="Check in" readonly>
-                            <span class="input-group-addon"> <i class="fa-solid fa-calendar-days"></i></span>
-                        </div>
-                    </div>
-                    <div class="pickup-items">
-                        <label class="field-label">Dropoff Date</label>
-                        <div id="datepicker2" class="input-group date" data-date-format="dd-mm-yyyy">
-                            <input class="form-control" type="text" placeholder="Check in" readonly>
-                            <span class="input-group-addon"> <i class="fa-solid fa-calendar-days"></i></span>
-                        </div>
-                    </div>
-                    <div class="pickup-items">
-                        <label class="field-label">Car Type</label>
-                        <div class="category-oneadjust">
-                            <select name="cate" class="category">
-                                <option value="1">
-                                    cars
-                                </option>
-                                <option value="1">
-                                    sedan
-                                </option>
-                                <option value="1">
-                                    sports
-                                </option>
-                                <option value="1">
-                                    jeep
-                                </option>
-                                <option value="1">
-                                    limousine
-                                </option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="pickup-items">
-                        <label class="field-label style-2">button</label>
-                       <button class="pickup-btn" type="submit">
-                            Find a Car
-                       </button>
-                    </div>
-                </div>
-                <div class="brand-wrapper pt-80 pb-80" style="opacity: 0; height: 10px !important;">
-                    <div class="array-button">
-                        <button class="array-prev-2"><i class="far fa-chevron-left"></i></button>
-                        <button class="array-next-2"><i class="far fa-chevron-right"></i></button>
-                    </div>
-                    <div class="swiper brand-slider">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="brand-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/brand/01.png" alt="img">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card-items">
+                            <div class="testimoni-bg-shape">
+                                <div class="testimonial-items-top">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-quote-left"></i>
+                                    </div>
+                                    <p>
+                                        I was very impresed by the remons service lorem ipsum is simply free text used
+                                        by copy typing refreshing. Neque porro est qui dolorem ipsum quia.
+                                    </p>
+                                    <div class="star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="brand-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/brand/02.png" alt="img">
+                            <div class="client-info-items d-flex align-items-center gap-3">
+                                <div class="client-img bg-cover"
+                                    style="background-image: url('https://pixydrops.com/remons/assets/img/testimonial/client-3.png');">
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/brand/03.png" alt="img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/brand/04.png" alt="img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/brand/05.png" alt="img">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/brand/06.png" alt="img">
+                                <div class="content">
+                                    <h5>
+                                        Jessica Brown
+                                    </h5>
+                                    <span>Customer</span>
                                 </div>
                             </div>
                         </div>
@@ -470,1149 +1187,526 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Feature Benefit Section Start -->
-        <section class="feature-benefit section section-padding fix" id="about">
-            <div class="container">
-                <div class="section-title text-center">
-                    <!--<img src="https://pixydrops.com/remons/assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
-                    <span class="wow fadeInUp" data-wow-delay=".2s">our benefits</span>-->
-                    <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                        Pourquoi utiliser <br>
-                        Dotragency
-                    </h2>
-                </div>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="feature-benefit-items">
-                            <div class="icon-box-shape">
-                                <img src="https://pixydrops.com/remons/assets/img/feature-benefit/box-icon-bg1.png" alt="shape-img">
-                            </div>
-                            <div class="bg-button-shape">
-                                <img src="https://pixydrops.com/remons/assets/img/feature-benefit/bg-button-iconbox.png" alt="shape-img">
-                            </div>
-                            <div class="feature-content">
-                                <h4>
-                                    <a href="car-details.html">
-                                        Large choix <br> de véhicules 
-                                        
-                                    </a>
-                                </h4>
-                                <p>Dotragency vous propose un vaste catalogue adapté à tous les besoins</p>
-                                <div class="icon">
-                                    <img src="https://pixydrops.com/remons/assets/img/feature-benefit/icon-1.png" alt="icon-img">
-                                </div>
-                            </div>
-                            <div class="feature-button">
-                                <a href="" style="opacity: 0;" class="link-btn">View More <i class="fa-solid fa-arrow-right ps-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="feature-benefit-items">
-                            <div class="icon-box-shape">
-                                <img src="https://pixydrops.com/remons/assets/img/feature-benefit/box-icon-bg2.png" alt="shape-img">
-                            </div>
-                            <div class="bg-button-shape">
-                                <img src="https://pixydrops.com/remons/assets/img/feature-benefit/bg-button-iconbox.png" alt="shape-img">
-                            </div>
-                            <div class="feature-content">
-                                <h4>
-                                    <a href="car-details.html">
-                                        Assurance incluse
-                                    </a>
-                                </h4>
-                                <p>Selon les prestataires, les véhicules sont couverts par une assurance de base</p>
-                                <div class="icon">
-                                    <img src="https://pixydrops.com/remons/assets/img/feature-benefit/icon-2.png" alt="icon-img">
-                                </div>
-                            </div>
-                            <div class="feature-button">
-                                <a href="" style="opacity: 0;" class="link-btn">View More <i class="fa-solid fa-arrow-right ps-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="feature-benefit-items">
-                            <div class="icon-box-shape">
-                                <img src="https://pixydrops.com/remons/assets/img/feature-benefit/box-icon-bg3.png" alt="shape-img">
-                            </div>
-                            <div class="bg-button-shape">
-                                <img src="https://pixydrops.com/remons/assets/img/feature-benefit/bg-button-iconbox.png" alt="shape-img">
-                            </div>
-                            <div class="feature-content">
-                                <h4>
-                                    <a href="car-details.html">
-                                       Support client <br> réactif 24/7
-                                    </a>
-                                </h4>
-                                <p>Une question ? Un imprévu ? Notre équipe d’assistance est disponible jour et nuit</p>
-                                <div class="icon">
-                                    <img src="https://pixydrops.com/remons/assets/img/feature-benefit/icon-3.png" alt="icon-img">
-                                </div>
-                            </div>
-                            <div class="feature-button">
-                                <a href="" style="opacity: 0;" class="link-btn">View More <i class="fa-solid fa-arrow-right ps-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section Start -->
-        <section class="about-section fix section-padding pt-0">
-            <div class="container">
-                <div class="about-wrapper">
+    <!-- Gallery Section Start -->
+    <div class="gallery-section fix" style="display: none;">
+        <div class="gallery-wrapper">
+            <div class="row g-4">
+                <div class="col-xxl-4 col-xl-5 col-lg-5">
                     <div class="row g-4">
-                        <div class="col-lg-6">
-                            <div class="about-image-items">
-                                <div class="color-shape">
-                                    <img src="https://pixydrops.com/remons/assets/img/about/secondary-shape-color-full.png" alt="shape-img">
-                                </div>
-                                <div class="car-shape wow fadeInUp" data-wow-delay=".7s">
-                                    <img src="https://pixydrops.com/remons/assets/img/about/car-shape.png" alt="shape-img">
-                                </div>
-                                <div class="counter-content wow fadeInLeft" data-wow-delay=".4s">
-                                    <h2 class="text-white"><span class="count">50</span></h2>
-                                    <p class="text-white">
-                                        Années <br>d'experience
-                                    </p>
-                                </div>
-                                <div class="about-image-1 wow fadeInDown" data-wow-delay=".3s">
-                                    <img src="https://pixydrops.com/remons/assets/img/about/01.jpg" alt="about-image">
-                                </div>
-                                <div class="about-image-2 wow fadeInLeft" data-wow-delay=".5s">
-                                    <img src="https://pixydrops.com/remons/assets/img/about/02.jpg" alt="about-image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="about-content">
-                                <div class="section-title">
-                                    <img src="https://pixydrops.com/remons/assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
-                                    <span class="wow fadeInUp" data-wow-delay=".2s">A Propos</span>
-                                    <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                                        Dotragency, c’est bien plus qu’un service de location de voiture.
-                                    </h2>
-                                </div>
-                                <h4 class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".3s">
-                                    Notre mission est d'offrir une expérience de location simple, transparente et accessible à travers l’Afrique.
-                                </h4>
-                                <p class="wow fadeInUp" data-wow-delay=".5s">
-                                    Nous sommes une plateforme panafricaine innovante qui facilite l’accès à la mobilité pour tous.
-                                     Que vous soyez voyageur, professionnel ou habitant local, nous vous offrons un accès rapide à une
-                                      flotte variée de 
-                                    véhicules à louer, adaptée à vos besoins et à votre budget.
-                                </p>
-                                <div class="about-list-item wow fadeInUp" data-wow-delay=".7s" style="display: none;">
-                                    <ul>
-                                        <li>
-                                            Many Pickup Locations
-                                        </li>
-                                        <li>
-                                            Offering Low Prices
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li>
-                                            Many Pickup Locations
-                                        </li>
-                                        <li>
-                                            Offering Low Prices
-                                        </li>
-                                    </ul>
-                                </div>
-                                <a style="display: none;" href="about.html" class="theme-btn wow fadeInUp" data-wow-delay=".8s">Discover More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Car Rentals Section Start -->
-        <section class="car-rentals-section section-padding fix" id="nosvoitures"> 
-            <div class="container">
-                <div class="section-title text-center">
-                    <img src="https://pixydrops.com/remons/assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
-                    <span class="wow fadeInUp" data-wow-delay=".2s">Découvrez nos nouvelles voitures</span>
-                    <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                       Voitures que nous proposons à la location
-                    </h2>
-                </div>
-            </div>
-            <div class="car-rentals-wrapper">
-                <div class="array-button">
-                    <button class="array-prev"><i class="far fa-chevron-left"></i></button>
-                    <button class="array-next"><i class="far fa-chevron-right"></i></button>
-                </div>
-                <div class="swiper car-rentals-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="car-rentals-items">
-                                <div class="car-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/car/01.jpg" alt="img">
-                                </div>
-                                <div class="car-content">
-                                    <div class="post-cat">
-                                        2024 Model
-                                    </div>
-                                    <div class="star">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <span>2 Reviews</span>
-                                    </div>
-                                    <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
-                                    <h6>$70.00 <span>/ Day</span></h6>
-                                    <div class="icon-items">
-                                        <ul>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/seat.svg" alt="img" class="me-1">
-                                                6 Seats
-                                            </li>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/door.svg" alt="img" class="me-1">
-                                                2 Doors
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/automatic.svg" alt="img" class="me-1">
-                                                Automatic
-                                            </li>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/petrol.svg" alt="img" class="me-1">
-                                                Petrol
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <a href="car-details.html" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="car-rentals-items">
-                                <div class="car-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/car/02.jpg" alt="img">
-                                </div>
-                                <div class="car-content">
-                                    <div class="post-cat">
-                                        2024 Model
-                                    </div>
-                                    <div class="star">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <span>2 Reviews</span>
-                                    </div>
-                                    <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
-                                    <h6>$70.00 <span>/ Day</span></h6>
-                                    <div class="icon-items">
-                                        <ul>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/seat.svg" alt="img" class="me-1">
-                                                6 Seats
-                                            </li>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/door.svg" alt="img" class="me-1">
-                                                2 Doors
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/automatic.svg" alt="img" class="me-1">
-                                                Automatic
-                                            </li>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/petrol.svg" alt="img" class="me-1">
-                                                Petrol
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <a href="car-details.html" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="car-rentals-items">
-                                <div class="car-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/car/03.jpg" alt="img">
-                                </div>
-                                <div class="car-content">
-                                    <div class="post-cat">
-                                        2024 Model
-                                    </div>
-                                    <div class="star">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <span>2 Reviews</span>
-                                    </div>
-                                    <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
-                                    <h6>$70.00 <span>/ Day</span></h6>
-                                    <div class="icon-items">
-                                        <ul>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/seat.svg" alt="img" class="me-1">
-                                                6 Seats
-                                            </li>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/door.svg" alt="img" class="me-1">
-                                                2 Doors
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/automatic.svg" alt="img" class="me-1">
-                                                Automatic
-                                            </li>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/petrol.svg" alt="img" class="me-1">
-                                                Petrol
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <a href="car-details.html" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="car-rentals-items">
-                                <div class="car-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/car/04.jpg" alt="img">
-                                </div>
-                                <div class="car-content">
-                                    <div class="post-cat">
-                                        2024 Model
-                                    </div>
-                                    <div class="star">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <span>2 Reviews</span>
-                                    </div>
-                                    <h4><a href="car-details.html">Hyundai Accent Limited</a></h4>
-                                    <h6>$70.00 <span>/ Day</span></h6>
-                                    <div class="icon-items">
-                                        <ul>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/seat.svg" alt="img" class="me-1">
-                                                6 Seats
-                                            </li>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/door.svg" alt="img" class="me-1">
-                                                2 Doors
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/automatic.svg" alt="img" class="me-1">
-                                                Automatic
-                                            </li>
-                                            <li>
-                                                <img src="https://pixydrops.com/remons/assets/img/car/petrol.svg" alt="img" class="me-1">
-                                                Petrol
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <a href="car-details.html" class="theme-btn bg-color w-100 text-center">book now <i class="fa-solid fa-arrow-right ps-1"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Car Service Section Start -->
-        <section class="car-service-section">
-            <div class="container">
-                <div class="car-service-wrapper">
-                    <div class="shape-image">
-                        <img src="https://pixydrops.com/remons/assets/img/car/shape-column.png" alt="shape-img">
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="service-car-image">
-                                <img src="https://pixydrops.com/remons/assets/img/decor-image-contact-home.jpg" alt="img">
-                                <div class="color-shape">
-                                    <img src="https://pixydrops.com/remons/assets/img/car/secondary-shape-color.png" alt="shape-img">
-                                </div>
-                                <div class="booking-content">
-                                    <p>Appelez pour réserver</p>
-                                    <h3><a href="tel:9288009850">+92 (8800) - 9850</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="service-car-content">
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                                   Vous recherchez un <br> service de voiture de luxe ?
-                                </h2>
-                                <h3 class="wow fadeInUp" data-wow-delay=".5s">
-                                    <span>À partir de</span> <sup>$</sup> 398 <span class="text">/mois</span>
-                                </h3>
-                                <a href="index.html" class="theme-btn wow fadeInUp" data-wow-delay=".7s">En savoir plus</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Funfact Section Start -->
-        <section  class="funfact-section section-padding bg-cover" style="display: none; background-image: url('https://pixydrops.com/remons/assets/img/funfact-bg.jpg');">
-            <div class="container">
-                <div class="funfact-wrapper">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-lg-6">
-                            <div class="section-title mb-0">
-                                <img src="https://pixydrops.com/remons/assets/img/sub-icon-2.png" alt="icon-img" class="wow fadeInUp">
-                                <span class="wow fadeInUp" data-wow-delay=".2s">fun facts</span>
-                                <h2 class="text-white wow fadeInUp" data-wow-delay=".4s">
-                                    Save Time & Money <br>
-                                    with Top Car Rent <br>
-                                    Services
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="funfact-counter-area">
-                                <div class="funfact-items wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="icon">
-                                        <img src="https://pixydrops.com/remons/assets/img/icon/car.png" alt="img">
-                                    </div>
-                                    <h2><span class="count">990</span></h2>
-                                    <p>
-                                        Cars <br>
-                                        rentouts
-                                    </p>
-                                </div>
-                                <div class="funfact-items wow fadeInUp" data-wow-delay=".5s">
-                                    <div class="icon">
-                                        <img src="https://pixydrops.com/remons/assets/img/icon/center.png" alt="img">
-                                    </div>
-                                    <h2><span class="count">230</span></h2>
-                                    <p>
-                                        Center <br>
-                                        solutions
-                                    </p>
-                                </div>
-                                <div class="funfact-items wow fadeInUp" data-wow-delay=".7s">
-                                    <div class="icon">
-                                        <img src="https://pixydrops.com/remons/assets/img/icon/like.png" alt="img">
-                                    </div>
-                                    <h2><span class="count">660</span></h2>
-                                    <p>
-                                        happy <br>
-                                        customers
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Popular Car Section Start -->
-        <section  class="popular-car-section fix section-padding" style="display: none;">
-            <div class="container">
-                <div class="section-title text-center">
-                    <img src="https://pixydrops.com/remons/assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
-                    <span class="wow fadeInUp" data-wow-delay=".2s">select car types</span>
-                    <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                        We’re Offering Popular <br>
-                        Cars Models
-                    </h2>
-                </div>
-                <div class="row g-4 mt-30">
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="popular-card-items">
-                            <div class="content">
-                                <h4><a href="car-details.html">Sedan</a></h4>
-                                <p>Available for Rent</p>
-                            </div>
-                            <div class="car-image">
-                                <img src="https://pixydrops.com/remons/assets/img/car/popular-car-1.jpg" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="popular-card-items">
-                            <div class="content">
-                                <h4><a href="car-details.html">Sports</a></h4>
-                                <p>Available for Rent</p>
-                            </div>
-                            <div class="car-image">
-                                <img src="https://pixydrops.com/remons/assets/img/car/popular-car-2.jpg" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="popular-card-items">
-                            <div class="content">
-                                <h4><a href="car-details.html">Jeep</a></h4>
-                                <p>Available for Rent</p>
-                            </div>
-                            <div class="car-image">
-                                <img src="https://pixydrops.com/remons/assets/img/car/popular-car-3.jpg" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="popular-card-items">
-                            <div class="content">
-                                <h4><a href="car-details.html">SUV</a></h4>
-                                <p>Available for Rent</p>
-                            </div>
-                            <div class="car-image">
-                                <img src="https://pixydrops.com/remons/assets/img/car/popular-car-4.jpg" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="popular-card-items">
-                            <div class="content">
-                                <h4><a href="car-details.html">Luxury</a></h4>
-                                <p>Available for Rent</p>
-                            </div>
-                            <div class="car-image">
-                                <img src="https://pixydrops.com/remons/assets/img/car/popular-car-5.jpg" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="popular-card-items">
-                            <div class="content">
-                                <h4><a href="car-details.html">Luxury</a></h4>
-                                <p>Available for Rent</p>
-                            </div>
-                            <div class="car-image">
-                                <img src="https://pixydrops.com/remons/assets/img/car/popular-car-6.jpg" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="popular-car-text wow fadeInUp" data-wow-delay=".4s">
-                    <h6>Car rental services specifically for our customers.</h6>
-                    <a href="car-details.html" class="theme-btn">Find a car</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonial Section Start -->
-        <section class="testimonial-section fix section-padding" style="display: none;">
-            <div class="testimonial-bg-shape">
-                <img src="https://pixydrops.com/remons/assets/img/testimonial/testimonial-bg.jpg" alt="shape-img">
-            </div>
-            <div class="container">
-                <div class="section-title-area">
-                    <div class="section-title">
-                        <img src="https://pixydrops.com/remons/assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
-                        <span class="wow fadeInUp" data-wow-delay=".2s">our testimonials</span>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                            What They’re Talking <br>
-                            About Remons
-                        </h2>
-                    </div>
-                    <p class="wow fadeInUp" data-wow-delay=".5s">
-                        Lorem ipsum dolor sit amet nsectetur cing elituspe ndisse suscipit <br> sagitis leo sit.
-                    </p>
-                </div>
-                <div class="swiper testimonial-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testimonial-card-items">
-                                <div class="testimoni-bg-shape">
-                                    <div class="testimonial-items-top">
-                                        <div class="icon">
-                                            <i class="fa-solid fa-quote-left"></i>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="row g-4">
+                                <div class="col-md-12">
+                                    <div class="gallery-image">
+                                        <img src="https://pixydrops.com/remons/assets/img/gallery/g-1.jpg" alt="img">
+                                        <div class="icon-box">
+                                            <a href="https://pixydrops.com/remons/assets/img/gallery/g-1.jpg"
+                                                class="icon img-popup-2">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </a>
                                         </div>
-                                        <p>
-                                            I was very impresed by the remons service lorem ipsum is simply free text used by copy typing refreshing. Neque porro est qui dolorem ipsum quia.
-                                        </p>
-                                        <div class="star">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
+                                        <div class="mask"></div>
+                                        <div class="mask-second"></div>
                                     </div>
                                 </div>
-                                <div class="client-info-items d-flex align-items-center gap-3">
-                                    <div class="client-img bg-cover" style="background-image: url('https://pixydrops.com/remons/assets/img/testimonial/client-1.png');"></div>
-                                    <div class="content">
-                                        <h5>
-                                            Jessica Brown
-                                        </h5>
-                                        <span>Customer</span>
+                                <div class="col-md-12">
+                                    <div class="gallery-image">
+                                        <img src="https://pixydrops.com/remons/assets/img/gallery/g-2.jpg" alt="img">
+                                        <div class="icon-box">
+                                            <a href="https://pixydrops.com/remons/assets/img/gallery/g-2.jpg"
+                                                class="icon img-popup-2">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </a>
+                                        </div>
+                                        <div class="mask"></div>
+                                        <div class="mask-second"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-card-items">
-                                <div class="testimoni-bg-shape">
-                                    <div class="testimonial-items-top">
-                                        <div class="icon">
-                                            <i class="fa-solid fa-quote-left"></i>
-                                        </div>
-                                        <p>
-                                            I was very impresed by the remons service lorem ipsum is simply free text used by copy typing refreshing. Neque porro est qui dolorem ipsum quia.
-                                        </p>
-                                        <div class="star">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                    </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="gallery-image">
+                                <img src="https://pixydrops.com/remons/assets/img/gallery/g-3.jpg" alt="img">
+                                <div class="icon-box">
+                                    <a href="https://pixydrops.com/remons/assets/img/gallery/g-3.jpg"
+                                        class="icon img-popup-2 style-two">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </a>
                                 </div>
-                                <div class="client-info-items d-flex align-items-center gap-3">
-                                    <div class="client-img bg-cover" style="background-image: url('https://pixydrops.com/remons/assets/img/testimonial/client-2.png');"></div>
-                                    <div class="content">
-                                        <h5>
-                                            Kevin Martin
-                                        </h5>
-                                        <span>Customer</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-card-items">
-                                <div class="testimoni-bg-shape">
-                                    <div class="testimonial-items-top">
-                                        <div class="icon">
-                                            <i class="fa-solid fa-quote-left"></i>
-                                        </div>
-                                        <p>
-                                            I was very impresed by the remons service lorem ipsum is simply free text used by copy typing refreshing. Neque porro est qui dolorem ipsum quia.
-                                        </p>
-                                        <div class="star">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="client-info-items d-flex align-items-center gap-3">
-                                    <div class="client-img bg-cover" style="background-image: url('https://pixydrops.com/remons/assets/img/testimonial/client-3.png');"></div>
-                                    <div class="content">
-                                        <h5>
-                                            Jessica Brown
-                                        </h5>
-                                        <span>Customer</span>
-                                    </div>
-                                </div>
+                                <div class="mask"></div>
+                                <div class="mask-second"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Gallery Section Start -->
-        <div class="gallery-section fix" style="display: none;">
-            <div class="gallery-wrapper">
-                <div class="row g-4">
-                    <div class="col-xxl-4 col-xl-5 col-lg-5">
-                        <div class="row g-4">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                               <div class="row g-4">
-                                    <div class="col-md-12">
-                                        <div class="gallery-image">
-                                            <img src="https://pixydrops.com/remons/assets/img/gallery/g-1.jpg" alt="img">
-                                            <div class="icon-box">
-                                                <a href="https://pixydrops.com/remons/assets/img/gallery/g-1.jpg" class="icon img-popup-2">
-                                                    <i class="fa-solid fa-plus"></i>
-                                                </a>
-                                            </div>
-                                            <div class="mask"></div>
-                                            <div class="mask-second"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="gallery-image">
-                                            <img src="https://pixydrops.com/remons/assets/img/gallery/g-2.jpg" alt="img">
-                                            <div class="icon-box">
-                                                <a href="https://pixydrops.com/remons/assets/img/gallery/g-2.jpg" class="icon img-popup-2">
-                                                    <i class="fa-solid fa-plus"></i>
-                                                </a>
-                                            </div>
-                                            <div class="mask"></div>
-                                            <div class="mask-second"></div>
-                                        </div>
-                                    </div>
-                               </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <div class="gallery-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/gallery/g-3.jpg" alt="img">
-                                    <div class="icon-box">
-                                        <a href="https://pixydrops.com/remons/assets/img/gallery/g-3.jpg" class="icon img-popup-2 style-two">
-                                            <i class="fa-solid fa-plus"></i>
-                                        </a>
-                                    </div>
-                                    <div class="mask"></div>
-                                    <div class="mask-second"></div>
+                <div class="col-xxl-6 col-xl-7 col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="gallery-image">
+                                <img src="https://pixydrops.com/remons/assets/img/gallery/g-4.jpg" alt="img">
+                                <div class="icon-box">
+                                    <a href="https://pixydrops.com/remons/assets/img/gallery/g-4.jpg"
+                                        class="icon img-popup-2">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </a>
                                 </div>
+                                <div class="mask"></div>
+                                <div class="mask-second"></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-7 col-lg-7">
-                        <div class="row g-4">
-                            <div class="col-md-4 col-sm-6">
-                                <div class="gallery-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/gallery/g-4.jpg" alt="img">
-                                    <div class="icon-box">
-                                        <a href="https://pixydrops.com/remons/assets/img/gallery/g-4.jpg" class="icon img-popup-2">
-                                            <i class="fa-solid fa-plus"></i>
-                                        </a>
-                                    </div>
-                                    <div class="mask"></div>
-                                    <div class="mask-second"></div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="gallery-image">
+                                <img src="https://pixydrops.com/remons/assets/img/gallery/g-5.jpg" alt="img">
+                                <div class="icon-box">
+                                    <a href="https://pixydrops.com/remons/assets/img/gallery/g-5.jpg"
+                                        class="icon img-popup-2">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </a>
                                 </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="gallery-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/gallery/g-5.jpg" alt="img">
-                                    <div class="icon-box">
-                                        <a href="https://pixydrops.com/remons/assets/img/gallery/g-5.jpg" class="icon img-popup-2">
-                                            <i class="fa-solid fa-plus"></i>
-                                        </a>
-                                    </div>
-                                    <div class="mask"></div>
-                                    <div class="mask-second"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="gallery-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/gallery/g-6.jpg" alt="img">
-                                    <div class="icon-box">
-                                        <a href="https://pixydrops.com/remons/assets/img/gallery/g-6.jpg" class="icon img-popup-2">
-                                            <i class="fa-solid fa-plus"></i>
-                                        </a>
-                                    </div>
-                                    <div class="mask"></div>
-                                    <div class="mask-second"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="gallery-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/gallery/g-7.jpg" alt="img">
-                                    <div class="icon-box">
-                                        <a href="https://pixydrops.com/remons/assets/img/gallery/g-7.jpg" class="icon img-popup-2">
-                                            <i class="fa-solid fa-plus"></i>
-                                        </a>
-                                    </div>
-                                    <div class="mask"></div>
-                                    <div class="mask-second"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="gallery-image">
-                                    <img src="https://pixydrops.com/remons/assets/img/gallery/g-8.jpg" alt="img">
-                                    <div class="icon-box">
-                                        <a href="https://pixydrops.com/remons/assets/img/gallery/g-8.jpg" class="icon img-popup-2">
-                                            <i class="fa-solid fa-plus"></i>
-                                        </a>
-                                    </div>
-                                    <div class="mask"></div>
-                                    <div class="mask-second"></div>
-                                </div>
+                                <div class="mask"></div>
+                                <div class="mask-second"></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xxl-2 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                        <div class="gallery-image style-2">
-                            <img src="https://pixydrops.com/remons/assets/img/gallery/g-9.jpg" alt="img">
-                            <div class="icon-box">
-                                <a href="https://pixydrops.com/remons/assets/img/gallery/g-9.jpg" class="icon img-popup-2 style-two">
-                                    <i class="fa-solid fa-plus"></i>
-                                </a>
-                            </div>
-                            <div class="mask"></div>
-                            <div class="mask-second"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- News Section Start -->
-        <section class="news-section section-padding fix" style="display: none;">
-            <div class="container">
-                <div class="section-title text-center">
-                    <img src="https://pixydrops.com/remons/assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
-                    <span class="wow fadeInUp" data-wow-delay=".2s">From the Blog</span>
-                    <h2 class="wow fadeInUp" data-wow-delay=".4s">
-                        Latest News & <br>
-                        Articles From the Blog
-                    </h2>
-                </div>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="news-card-items">
-                            <div class="news-image">
-                                <img src="https://pixydrops.com/remons/assets/img/news/01.jpg" alt="news-img">
-                                <div class="post-date">
-                                    <h6>
-                                        20 <br>
-                                        Mar 
-                                    </h6>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="gallery-image">
+                                <img src="https://pixydrops.com/remons/assets/img/gallery/g-6.jpg" alt="img">
+                                <div class="icon-box">
+                                    <a href="https://pixydrops.com/remons/assets/img/gallery/g-6.jpg"
+                                        class="icon img-popup-2">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </a>
                                 </div>
-                            </div>
-                            <div class="news-content">
-                                <div class="post-client">
-                                    <img src="https://pixydrops.com/remons/assets/img/news/client.png" alt="img">
-                                </div>
-                                <div class="news-cont">
-                                    <span>by Mike Hardson</span>
-                                    <h3><a href="news-details.html">The best fastest and most powerful road car</a></h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem…</p>
-                                </div>
-                                <ul>
-                                    <li>
-                                        <i class="fa-solid fa-comments"></i>
-                                        2 Comments
-                                    </li>
-                                    <li>
-                                       <a href="news-details.html">
-                                            <i class="fa-solid fa-arrow-right-long"></i>
-                                            More 
-                                       </a>
-                                    </li>
-                                </ul>
+                                <div class="mask"></div>
+                                <div class="mask-second"></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="news-card-items">
-                            <div class="news-image">
-                                <img src="https://pixydrops.com/remons/assets/img/news/02.jpg" alt="news-img">
-                                <div class="post-date">
-                                    <h6>
-                                        26 <br>
-                                        Mar 
-                                    </h6>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="gallery-image">
+                                <img src="https://pixydrops.com/remons/assets/img/gallery/g-7.jpg" alt="img">
+                                <div class="icon-box">
+                                    <a href="https://pixydrops.com/remons/assets/img/gallery/g-7.jpg"
+                                        class="icon img-popup-2">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </a>
                                 </div>
-                            </div>
-                            <div class="news-content">
-                                <div class="post-client">
-                                    <img src="https://pixydrops.com/remons/assets/img/news/client.png" alt="img">
-                                </div>
-                                <div class="news-cont">
-                                    <span>by Mike Hardson</span>
-                                    <h3><a href="news-details.html">The best fastest and most powerful road car</a></h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem…</p>
-                                </div>
-                                <ul>
-                                    <li>
-                                        <i class="fa-solid fa-comments"></i>
-                                        2 Comments
-                                    </li>
-                                    <li>
-                                       <a href="news-details.html">
-                                            <i class="fa-solid fa-arrow-right-long"></i>
-                                            More 
-                                       </a>
-                                    </li>
-                                </ul>
+                                <div class="mask"></div>
+                                <div class="mask-second"></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="news-card-items">
-                            <div class="news-image">
-                                <img src="https://pixydrops.com/remons/assets/img/news/03.jpg" alt="news-img">
-                                <div class="post-date">
-                                    <h6>
-                                        29 <br>
-                                        Mar 
-                                    </h6>
+                        <div class="col-md-8">
+                            <div class="gallery-image">
+                                <img src="https://pixydrops.com/remons/assets/img/gallery/g-8.jpg" alt="img">
+                                <div class="icon-box">
+                                    <a href="https://pixydrops.com/remons/assets/img/gallery/g-8.jpg"
+                                        class="icon img-popup-2">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </a>
                                 </div>
-                            </div>
-                            <div class="news-content">
-                                <div class="post-client">
-                                    <img src="https://pixydrops.com/remons/assets/img/news/client.png" alt="img">
-                                </div>
-                                <div class="news-cont">
-                                    <span>by Mike Hardson</span>
-                                    <h3><a href="news-details.html">The best fastest and most powerful road car</a></h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem…</p>
-                                </div>
-                                <ul>
-                                    <li>
-                                        <i class="fa-solid fa-comments"></i>
-                                        2 Comments
-                                    </li>
-                                    <li>
-                                       <a href="news-details.html">
-                                            <i class="fa-solid fa-arrow-right-long"></i>
-                                            More 
-                                       </a>
-                                    </li>
-                                </ul>
+                                <div class="mask"></div>
+                                <div class="mask-second"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Cta Rental Section Start -->
-        <section class="cta-rental-section bg-cover fix section-padding" style="background-image: url('https://pixydrops.com/remons/assets/img/cta/bg-app.jpg');">
-            <div class="container">
-                <div class="row g-4 justify-content-between align-items-center">
-                    <div class="col-lg-6">
-                        <div class="cta-rental-items">
-                            <h4 class="wow fadeInUp" data-wow-delay=".3s">Accès plus rapide et plus facile aux services de location de voitures</h4>
-                            <h2 class="wow fadeInUp" data-wow-delay=".5s">Location de voitures haut de gamme</h2>
-                            <div class="rental-app-button">
-                                <a href="index.html" class="app-button-items wow fadeInUp" data-wow-delay=".7s">
-                                    <span class="button-icon"><i class="fa-solid fa-play"></i></span>
-                                    <span class="button-text">
-                                        <span class="text">Obtenir ici</span> <br>
-                                        <span class="headding-text">Google Play</span>
-                                    </span>
-                                </a>
-                                <a href="index.html" class="app-button-items style-2 wow fadeInUp" data-wow-delay=".8s">
-                                    <span class="button-icon"><i class="fa-brands fa-apple"></i></span>
-                                    <span class="button-text">
-                                        <span class="text">Obtenir ici</span> <br>
-                                        <span class="headding-text">Play Store</span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="mobile-remons-image">
-                            <img src="./assets/img/freep.avif" alt="img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Cta Cheap Rental Section Start -->
-        <section class="cta-cheap-rental-section">
-            <div class="container">
-                <div class="cta-cheap-rental">
-                    <div class="cta-cheap-rental-left wow fadeInUp" data-wow-delay="
-                    .3s">
-                        <div class="logo-thumb">
-                            <a href="index.html">
-                                <img src="./assets/img/dotragency.jpg"  style="width: 50px; height: 50px;" alt="logo-img">
+                <div class="col-xxl-2 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                    <div class="gallery-image style-2">
+                        <img src="https://pixydrops.com/remons/assets/img/gallery/g-9.jpg" alt="img">
+                        <div class="icon-box">
+                            <a href="https://pixydrops.com/remons/assets/img/gallery/g-9.jpg"
+                                class="icon img-popup-2 style-two">
+                                <i class="fa-solid fa-plus"></i>
                             </a>
                         </div>
-                        <h4 class="text-white">Faites de grosses économies avec notre location de voiture pas chère</h4>
-                    </div>
-                    <div class="social-icon d-flex align-items-center wow fadeInUp" data-wow-delay="
-                    .5s">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <div class="mask"></div>
+                        <div class="mask-second"></div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
 
-        <!-- Footer Section Start -->
-        <footer class="footer-section fix" style="display: none;">
-            <div class="container">
-                <div class="footer-widgets-wrapper">
-                    <div class="row justify-content-between">
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                            <div class="single-footer-widget shape-map">
-                                <div class="widget-head">
-                                    <h4>Contact</h4>
-                                </div>
-                                <div class="footer-content">
-                                    <p>
-                                        66 Road Broklyn Golden Street, 600
-                                        New York, USA 
-                                    </p>
-                                    <ul class="contact-info">
-                                        <li>
-                                            <i class="fa-regular fa-envelope"></i>
-                                            <a href="mailto:needhelp@company.com">needhelp@company.com</a>
-                                        </li>
-                                        <li>
-                                            <i class="fa-solid fa-phone-volume"></i>
-                                            <a href="tel:926668880000">+92 (666) 888 0000</a>
-                                        </li>
-                                    </ul>
-                                </div>
+    <!-- News Section Start -->
+    <section class="news-section section-padding fix" style="display: none;">
+        <div class="container">
+            <div class="section-title text-center">
+                <img src="https://pixydrops.com/remons/assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
+                <span class="wow fadeInUp" data-wow-delay=".2s">From the Blog</span>
+                <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                    Latest News & <br>
+                    Articles From the Blog
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="news-card-items">
+                        <div class="news-image">
+                            <img src="https://pixydrops.com/remons/assets/img/news/01.jpg" alt="news-img">
+                            <div class="post-date">
+                                <h6>
+                                    20 <br>
+                                    Mar
+                                </h6>
                             </div>
                         </div>
-                        <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-                            <div class="single-footer-widget">
-                                <div class="widget-head">
-                                    <h4>Contact</h4>
-                                </div>
-                                <ul class="list-items">
+                        <div class="news-content">
+                            <div class="post-client">
+                                <img src="https://pixydrops.com/remons/assets/img/news/client.png" alt="img">
+                            </div>
+                            <div class="news-cont">
+                                <span>by Mike Hardson</span>
+                                <h3><a href="news-details.html">The best fastest and most powerful road car</a></h3>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem…</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-comments"></i>
+                                    2 Comments
+                                </li>
+                                <li>
+                                    <a href="news-details.html">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                        More
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="news-card-items">
+                        <div class="news-image">
+                            <img src="https://pixydrops.com/remons/assets/img/news/02.jpg" alt="news-img">
+                            <div class="post-date">
+                                <h6>
+                                    26 <br>
+                                    Mar
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="news-content">
+                            <div class="post-client">
+                                <img src="https://pixydrops.com/remons/assets/img/news/client.png" alt="img">
+                            </div>
+                            <div class="news-cont">
+                                <span>by Mike Hardson</span>
+                                <h3><a href="news-details.html">The best fastest and most powerful road car</a></h3>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem…</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-comments"></i>
+                                    2 Comments
+                                </li>
+                                <li>
+                                    <a href="news-details.html">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                        More
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                    <div class="news-card-items">
+                        <div class="news-image">
+                            <img src="https://pixydrops.com/remons/assets/img/news/03.jpg" alt="news-img">
+                            <div class="post-date">
+                                <h6>
+                                    29 <br>
+                                    Mar
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="news-content">
+                            <div class="post-client">
+                                <img src="https://pixydrops.com/remons/assets/img/news/client.png" alt="img">
+                            </div>
+                            <div class="news-cont">
+                                <span>by Mike Hardson</span>
+                                <h3><a href="news-details.html">The best fastest and most powerful road car</a></h3>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem…</p>
+                            </div>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-comments"></i>
+                                    2 Comments
+                                </li>
+                                <li>
+                                    <a href="news-details.html">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                        More
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="opacity: 0 !important;">dfklsdfj</div>
+    <!-- Cta Rental Section Start -->
+    <section class="cta-rental-section bg-cover fix section-padding"
+        style="background-image: url('https://pixydrops.com/remons/assets/img/cta/bg-app.jpg');">
+        <div class="container">
+            <div class="row g-4 justify-content-between align-items-center">
+                <div class="col-lg-6">
+                    <div class="cta-rental-items">
+                        <h4 class="wow fadeInUp" data-wow-delay=".3s">Accès plus rapide et plus facile aux services de
+                            location de voitures</h4>
+                        <h2 class="wow fadeInUp" data-wow-delay=".5s">Location de voitures haut de gamme</h2>
+                        <div class="rental-app-button" style="display: none;">
+                            <a href="index.html" class="app-button-items wow fadeInUp" data-wow-delay=".7s">
+                                <span class="button-icon"><i class="fa-solid fa-play"></i></span>
+                                <span class="button-text">
+                                    <span class="text">Obtenir ici</span> <br>
+                                    <span class="headding-text">Google Play</span>
+                                </span>
+                            </a>
+                            <a href="index.html" class="app-button-items style-2 wow fadeInUp" data-wow-delay=".8s">
+                                <span class="button-icon"><i class="fa-brands fa-apple"></i></span>
+                                <span class="button-text">
+                                    <span class="text">Obtenir ici</span> <br>
+                                    <span class="headding-text">Play Store</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="mobile-remons-image">
+                        <img src="./assets/img/freep.avif" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cta Cheap Rental Section Start -->
+    <section class="cta-cheap-rental-section">
+        <div class="container">
+            <div class="cta-cheap-rental">
+                <div class="cta-cheap-rental-left wow fadeInUp" data-wow-delay="
+                    .3s">
+                    <div class="logo-thumb">
+                        <a href="index.html">
+                            <img src="./assets/img/dotragency.jpg" style="width: 50px; height: 50px;" alt="logo-img">
+                        </a>
+                    </div>
+                    <h4 class="text-white">Faites de grosses économies avec notre location de voiture pas chère</h4>
+                </div>
+                <div class="social-icon d-flex align-items-center wow fadeInUp" data-wow-delay="
+                    .5s">
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/dotraagency?igsh=Z3YzdThqZmpjN3Nl&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                    <!-- TikTok -->
+                    <a href="https://www.tiktok.com/@dotragency?_t=ZM-8wBtMYsTcTl&_r=1"><i class="fab fa-tiktok"></i></i></a>
+                    <!-- Snapchat -->
+                    <a href="https://snapchat.com/t/N3ZI2sEj"><i class="fab fa-snapchat-ghost"></i></a>            
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer class="footer-section fix" style="display: none;">
+        <div class="container">
+            <div class="footer-widgets-wrapper">
+                <div class="row justify-content-between">
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div class="single-footer-widget shape-map">
+                            <div class="widget-head">
+                                <h4>Contact</h4>
+                            </div>
+                            <div class="footer-content">
+                                <p>
+                                    66 Road Broklyn Golden Street, 600
+                                    New York, USA
+                                </p>
+                                <ul class="contact-info">
                                     <li>
-                                        <a href="about.html"> 
-                                            About Us
-                                        </a>
+                                        <i class="fa-regular fa-envelope"></i>
+                                        <a href="mailto:needhelp@company.com">needhelp@company.com</a>
                                     </li>
                                     <li>
-                                        <a href="car-details.html">
-                                            New Cars
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="news-details.html">
-                                            Latest News
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="gallery.html">
-                                            Gallery
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">
-                                            Contact
-                                        </a>
+                                        <i class="fa-solid fa-phone-volume"></i>
+                                        <a href="tel:+2250719093910">+2250719093910</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
-                            <div class="single-footer-widget">
-                                <div class="widget-head">
-                                    <h4>Gallery</h4>
-                                </div>
-                                <div class="footer-gallery">
-                                    <div class="gallery-wrap">
-                                        <div class="gallery-item">
-                                            <div class="thumb">
-                                                <a href="https://pixydrops.com/remons/assets/img/footer/gallery-1.jpg" class="img-popup">
-                                                    <img src="https://pixydrops.com/remons/assets/img/footer/gallery-1.jpg" alt="gallery-img">
-                                                    <div class="icon">
-                                                        <i class="far fa-plus"></i>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="thumb">
-                                                <a href="https://pixydrops.com/remons/assets/img/footer/gallery-2.jpg" class="img-popup">
-                                                    <img src="https://pixydrops.com/remons/assets/img/footer/gallery-2.jpg" alt="gallery-img">
-                                                    <div class="icon">
-                                                        <i class="far fa-plus"></i>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="thumb">
-                                                <a href="https://pixydrops.com/remons/assets/img/footer/gallery-3.jpg" class="img-popup">
-                                                    <img src="https://pixydrops.com/remons/assets/img/footer/gallery-3.jpg" alt="gallery-img">
-                                                    <div class="icon">
-                                                        <i class="far fa-plus"></i>
-                                                    </div>
-                                                </a>
-                                            </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h4>Contact</h4>
+                            </div>
+                            <ul class="list-items">
+                                <li>
+                                    <a href="about.html">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        New Cars
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="news-details.html">
+                                        Latest News
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="gallery.html">
+                                        Gallery
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h4>Gallery</h4>
+                            </div>
+                            <div class="footer-gallery">
+                                <div class="gallery-wrap">
+                                    <div class="gallery-item">
+                                        <div class="thumb">
+                                            <a href="https://pixydrops.com/remons/assets/img/footer/gallery-1.jpg"
+                                                class="img-popup">
+                                                <img src="https://pixydrops.com/remons/assets/img/footer/gallery-1.jpg"
+                                                    alt="gallery-img">
+                                                <div class="icon">
+                                                    <i class="far fa-plus"></i>
+                                                </div>
+                                            </a>
                                         </div>
-                                        <div class="gallery-item">
-                                            <div class="thumb">
-                                                <a href="https://pixydrops.com/remons/assets/img/footer/gallery-4.jpg" class="img-popup">
-                                                    <img src="https://pixydrops.com/remons/assets/img/footer/gallery-4.jpg" alt="gallery-img">
-                                                    <div class="icon">
-                                                        <i class="far fa-plus"></i>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="thumb">
-                                                <a href="https://pixydrops.com/remons/assets/img/footer/gallery-5.jpg" class="img-popup">
-                                                    <img src="https://pixydrops.com/remons/assets/img/footer/gallery-5.jpg" alt="gallery-img">
-                                                    <div class="icon">
-                                                        <i class="far fa-plus"></i>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="thumb">
-                                                <a href="https://pixydrops.com/remons/assets/img/footer/gallery-6.jpg" class="img-popup">
-                                                    <img src="https://pixydrops.com/remons/assets/img/footer/gallery-6.jpg" alt="gallery-img">
-                                                    <div class="icon">
-                                                        <i class="far fa-plus"></i>
-                                                    </div>
-                                                </a>
-                                            </div>
+                                        <div class="thumb">
+                                            <a href="https://pixydrops.com/remons/assets/img/footer/gallery-2.jpg"
+                                                class="img-popup">
+                                                <img src="https://pixydrops.com/remons/assets/img/footer/gallery-2.jpg"
+                                                    alt="gallery-img">
+                                                <div class="icon">
+                                                    <i class="far fa-plus"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="thumb">
+                                            <a href="https://pixydrops.com/remons/assets/img/footer/gallery-3.jpg"
+                                                class="img-popup">
+                                                <img src="https://pixydrops.com/remons/assets/img/footer/gallery-3.jpg"
+                                                    alt="gallery-img">
+                                                <div class="icon">
+                                                    <i class="far fa-plus"></i>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
-                            <div class="single-footer-widget">
-                                <div class="widget-head">
-                                    <h4>Newsletter</h4>
-                                </div>
-                                <div class="footer-content">
-                                    <p>Subscribe our newsletter to get our latest update & news</p>
-                                    <div class="footer-input">
-                                        <input type="email" id="email2" placeholder="Email address">
-                                        <button class="newsletter-btn" type="submit">
-                                            <i class="fa-regular fa-paper-plane"></i>
-                                        </button>
+                                    <div class="gallery-item">
+                                        <div class="thumb">
+                                            <a href="https://pixydrops.com/remons/assets/img/footer/gallery-4.jpg"
+                                                class="img-popup">
+                                                <img src="https://pixydrops.com/remons/assets/img/footer/gallery-4.jpg"
+                                                    alt="gallery-img">
+                                                <div class="icon">
+                                                    <i class="far fa-plus"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="thumb">
+                                            <a href="https://pixydrops.com/remons/assets/img/footer/gallery-5.jpg"
+                                                class="img-popup">
+                                                <img src="https://pixydrops.com/remons/assets/img/footer/gallery-5.jpg"
+                                                    alt="gallery-img">
+                                                <div class="icon">
+                                                    <i class="far fa-plus"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="thumb">
+                                            <a href="https://pixydrops.com/remons/assets/img/footer/gallery-6.jpg"
+                                                class="img-popup">
+                                                <img src="https://pixydrops.com/remons/assets/img/footer/gallery-6.jpg"
+                                                    alt="gallery-img">
+                                                <div class="icon">
+                                                    <i class="far fa-plus"></i>
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="footer-bottom">
-                    <div class="footer-wrapper">
-                        <p class="wow fadeInUp" data-wow-delay=".4s">
-                            © Copyright 2024 by <a href="index.html">Remons.com</a>
-                        </p>
+                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                        <div class="single-footer-widget">
+                            <div class="widget-head">
+                                <h4>Newsletter</h4>
+                            </div>
+                            <div class="footer-content">
+                                <p>Subscribe our newsletter to get our latest update & news</p>
+                                <div class="footer-input">
+                                    <input type="email" id="email2" placeholder="Email address">
+                                    <button class="newsletter-btn" type="submit">
+                                        <i class="fa-regular fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </footer>
-        
-        <!--<< All JS Plugins >>-->
-        <script src="assets/js/jquery-3.7.1.min.js"></script>
-        <!--<< Viewport Js >>-->
-        <script src="assets/js/viewport.jquery.js"></script>
-        <!--<< Bootstrap Js >>-->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <!--<< Nice Select Js >>-->
-        <script src="assets/js/jquery.nice-select.min.js"></script>
-        <!--<< Waypoints Js >>-->
-        <script src="assets/js/jquery.waypoints.js"></script>
-        <!--<< Counterup Js >>-->
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <!--<< Datepicker Js >>-->
-        <script src="assets/js/bootstrap-datepicker.js"></script>
-        <!--<< Swiper Slider Js >>-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <!--<< MeanMenu Js >>-->
-        <script src="assets/js/jquery.meanmenu.min.js"></script>
-        <!--<< Magnific Popup Js >>-->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <!--<< GSAP Animation Js >>-->
-        <script src="assets/js/animation.js"></script>
-        <!--<< Wow Animation Js >>-->
-        <script src="assets/js/wow.min.js"></script>
-        <!--<< Main.js >>-->
-        <script src="assets/js/main.js"></script>
-    </body>
+            <div class="footer-bottom">
+                <div class="footer-wrapper">
+                    <p class="wow fadeInUp" data-wow-delay=".4s">
+                        © Copyright 2024 by <a href="index.html">Remons.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Button trigger modal -->
+
+    <!--<< All JS Plugins >>-->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!--<< Viewport Js >>-->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!--<< Bootstrap Js >>-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!--<< Nice Select Js >>-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--<< Waypoints Js >>-->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <!--<< Counterup Js >>-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!--<< Datepicker Js >>-->
+    <script src="assets/js/bootstrap-datepicker.js"></script>
+    <!--<< Swiper Slider Js >>-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--<< MeanMenu Js >>-->
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <!--<< Magnific Popup Js >>-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--<< GSAP Animation Js >>-->
+    <script src="assets/js/animation.js"></script>
+    <!--<< Wow Animation Js >>-->
+    <script src="assets/js/wow.min.js"></script>
+    <!--<< Main.js >>-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/sendSms.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
