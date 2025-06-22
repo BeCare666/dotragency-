@@ -9,21 +9,36 @@ Version: 1.0.0
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lexend:wght@100..900&family=Pangolin&display=swap");
 
 :root {
-  --body: #121212;             /* Fond principal sombre */
-  --black: #ffffff;            /* Texte principal clair */
-  --white: #1e1e1e;            /* Pseudo-"blanc" foncé pour blocs */
-  --theme: rgb(233, 53, 41);   /* Couleur rouge thème conservée */
-  --theme2: #181818;           /* Bleu lumineux sur fond sombre */
-  --header: white;           /* Fond sombre pour les entêtes */
-  --text: #cccccc;             /* Texte secondaire clair */
-  --ratting: rgb(255, 77, 79); /* Rouge plus vif pour notation */
-  --border: #333333;           /* Bordures sombres */
-  --border2: #444466;          /* Bordure alternative (bleu-gris foncé) */
-  --border3: white;          /* Bordure accentuée en bleu */
-  --bg: #181818;               /* Arrière-plan général foncé */
-  --bg2: #1f1f1f;              /* Arrière-plan secondaire */
-  --bg3: #2c2c2c;              /* Variation claire pour blocs ou boutons */
-  --box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.6); /* Ombre profonde */
+  --body: #121212;
+  /* Fond principal sombre */
+  --black: #ffffff;
+  /* Texte principal clair */
+  --white: #1e1e1e;
+  /* Pseudo-"blanc" foncé pour blocs */
+  --theme: rgb(233, 53, 41);
+  /* Couleur rouge thème conservée */
+  --theme2: #181818;
+  /* Bleu lumineux sur fond sombre */
+  --header: white;
+  /* Fond sombre pour les entêtes */
+  --text: #cccccc;
+  /* Texte secondaire clair */
+  --ratting: rgb(255, 77, 79);
+  /* Rouge plus vif pour notation */
+  --border: #333333;
+  /* Bordures sombres */
+  --border2: #444466;
+  /* Bordure alternative (bleu-gris foncé) */
+  --border3: white;
+  /* Bordure accentuée en bleu */
+  --bg: #181818;
+  /* Arrière-plan général foncé */
+  --bg2: #1f1f1f;
+  /* Arrière-plan secondaire */
+  --bg3: #2c2c2c;
+  /* Variation claire pour blocs ou boutons */
+  --box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.6);
+  /* Ombre profonde */
 }
 
 .star i {
@@ -35,13 +50,14 @@ Version: 1.0.0
 }
 
 #infoContactId {
-  background-color: white;
+  background-color: #181818;
   padding: 20px;
   position: fixed;
   top: 77px;
   z-index: 9999;
   right: 0 !important;
   border-radius: 5px 0 0 5px;
+  color: white !important;
 }
 
 #infoContactId {
@@ -5697,11 +5713,13 @@ span {
   width: 100%;
   position: relative;
 }
-.post-cat{
-  color:white !important;
+
+.post-cat {
+  color: white !important;
 }
+
 .news-details-wrapper .main-sidebar .search-widget form input {
-  background-color: var(--theme2);   
+  background-color: var(--theme2);
   font-size: 16px;
   padding: 25px 40px;
   width: 100%;
