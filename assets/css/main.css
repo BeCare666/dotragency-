@@ -5716,6 +5716,7 @@ span {
 
 .post-cat {
   color: white !important;
+  display: none !important;
 }
 
 .news-details-wrapper .main-sidebar .search-widget form input {
